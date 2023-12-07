@@ -7,7 +7,7 @@ import sys
 def test_metric(data):
     from eva.tokenizer import SimpleTokenizer, PretrainedTokenizer
     tokenizer = SimpleTokenizer(method="nltk")
-    eva_path = "/home/guanjian/evaluation_dataset/metrics/OpenEva"
+    eva_path = "/Users/ajin/Desktop/2023/졸작 코드/평가모델/OpenMEVA"
 
     metric_score = {}
 

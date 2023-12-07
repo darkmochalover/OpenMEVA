@@ -1,6 +1,11 @@
-from moverscore_v2 import get_idf_dict, word_mover_score    # FROM git+https://github.com/AIPHES/emnlp19-moverscore.git
-# from collections import defaultdict
+# from .moverscore_v2 import moverscore_v2
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+ 
+from .moverscore_v2 import get_idf_dict, word_mover_score    # FROM git+https://github.com/AIPHES/emnlp19-moverscore.git
+# from collections import defaultdict
+
 
 _CITATION = """\
 @inproceedings{zhao2019moverscore,
